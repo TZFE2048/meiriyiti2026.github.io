@@ -1,0 +1,5 @@
+body { font-family: "Microsoft YaHei", sans-serif; padding: 20px; background: #f9f9f9; }
+table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+th, td { padding: 10px; text-align: left; border-bottom: 1px solid #ddd; }
+th { background: #444; color: white; }
+tr:hover { background: #f1f1f1; }
