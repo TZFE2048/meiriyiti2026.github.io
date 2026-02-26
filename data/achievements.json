@@ -1,0 +1,150 @@
+{
+  "visible": [
+    {
+      "id": "first_blood",
+      "name": "初露锋芒",
+      "description": "累计答对 10 题",
+      "icon": "🎯",
+      "condition": "total_correct >= 10",
+      "achieved_by": [小贝克、小陈、芒U、蜜糖、开心牛、私猴]
+    },
+    {
+      "id": "season_starter",
+      "name": "节令知微",
+      "description": "在任意传统节日答对题目",
+      "icon": "📅",
+      "condition": "answered on traditional festival",
+      "achieved_by": []
+    },
+    {
+      "id": "season_complete",
+      "name": "赛季启程",
+      "description": "完整参与一个赛季（至少30天）",
+      "icon": "🏁",
+      "condition": "participated for ≥30 days in one season",
+      "achieved_by": []
+    },
+    {
+      "id": "daily_streak",
+      "name": "日拱一卒",
+      "description": "连续3天答题（不限正确）",
+      "icon": "📅",
+      "condition": "streak of 3 consecutive days",
+      "achieved_by": []
+    },
+    {
+      "id": "question_diversity",
+      "name": "题海拾贝",
+      "description": "答对过5种不同难度题（1~6级）",
+      "icon": "🌊",
+      "condition": "answered questions of 5+ difficulty levels",
+      "achieved_by": []
+    },
+    {
+      "id": "spring_rain",
+      "name": "春风化雨",
+      "description": "在植树节或教师相关题答对",
+      "icon": "🌱",
+      "condition": "answered on Tree Planting Day or Teacher-related question",
+      "achieved_by": []
+    },
+    {
+      "id": "rank_up",
+      "name": "青云直上",
+      "description": "单赛季从「见习」升至「进阶」及以上",
+      "icon": "🚀",
+      "condition": "rank increased from 1 to 5+ in one season",
+      "achieved_by": []
+    },
+    {
+      "id": "hard_question_master",
+      "name": "精诚所至",
+      "description": "累计答对12道3级及以上题目",
+      "icon": "🔥",
+      "condition": "answered 12+ questions of level 3+",
+      "achieved_by": []
+    },
+    {
+      "id": "festival_full",
+      "name": "节庆全勤",
+      "description": "单赛季所有重大节日均参与答题",
+      "icon": "🎉",
+      "condition": "answered on all major festivals in one season",
+      "achieved_by": []
+    },
+    {
+      "id": "daily_hard",
+      "name": "稳如磐石",
+      "description": "连续7天答对当日难度最高的题目",
+      "icon": "🛡️",
+      "condition": "answered the highest-difficulty question for 7 consecutive days",
+      "achieved_by": []
+    },
+    {
+      "id": "elite_guardian",
+      "name": "段位守望",
+      "description": "单赛季全程保持「精英」及以上",
+      "icon": "💎",
+      "condition": "rank never dropped below Elite (6) in one season",
+      "achieved_by": []
+    },
+    {
+      "id": "mistake_survivor",
+      "name": "错亦有光",
+      "description": "使用容错机会后最终仍升段",
+      "icon": "💡",
+      "condition": "used error tolerance and still promoted",
+      "achieved_by": []
+    },
+    {
+      "id": "seven_stars",
+      "name": "七曜连珠",
+      "description": "7个赛季均进入名人堂（Top 20）",
+      "icon": "🌌",
+      "condition": "top 20 in S1~S7",
+      "achieved_by": ["小贝克"]
+    },
+    {
+      "id": "legendary_achievement",
+      "name": "宗师印记",
+      "description": "累计3次达到「传奇」段位",
+      "icon": "⭐",
+      "condition": "reached Legend rank 3 times",
+      "achieved_by": []
+    },
+    {
+      "id": "full_year_traditional",
+      "name": "岁稔年丰",
+      "description": "全年所有16个传统节日日答对",
+      "icon": "🌾",
+      "condition": "answered on all 16 traditional festivals",
+      "achieved_by": []
+    }
+  ],
+  "hidden": [
+    {
+      "id": "all_major_festivals",
+      "name": "赤帜长明",
+      "description": "全年所有12个重大节日日答对",
+      "icon": "🟥",
+      "condition": "answered on all 12 major national holidays",
+      "achieved_by": []
+    },
+    {
+      "id": "perfect_season",
+      "name": "白璧无瑕",
+      "description": "单赛季无任何答错（含高难题）",
+      "icon": "⚪",
+      "condition": "no wrong answers in entire season",
+      "achieved_by": []
+    },
+    {
+      "id": "legacy_keeper",
+      "name": "薪火相传",
+      "description": "历史最高段位 ≥ 当前段位 连续5赛季",
+      "icon": "🕯️",
+      "condition": "highest rank ≥ current rank for 5 consecutive seasons",
+      "achieved_by": []
+    }
+  ]
+}
