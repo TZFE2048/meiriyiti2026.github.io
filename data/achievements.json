@@ -6,7 +6,7 @@
       "description": "累计答对 10 题",
       "icon": "🎯",
       "condition": "total_correct >= 10",
-      "achieved_by": ["小贝克"]
+      "achieved_by": ["小贝克""小陈""开心牛""蜜糖"]
     },
     {
       "id": "season_starter",
@@ -30,7 +30,7 @@
       "description": "连续3天答题（不限正确）",
       "icon": "📅",
       "condition": "streak of 3 consecutive days",
-      "achieved_by": []
+      "achieved_by": ["小贝克""小陈""小河""开心牛""蜜糖"]
     },
     {
       "id": "question_diversity",
@@ -38,7 +38,7 @@
       "description": "答对过5种不同难度题（1~6级）",
       "icon": "🌊",
       "condition": "answered questions of 5+ difficulty levels",
-      "achieved_by": []
+      "achieved_by": ["小贝克""小陈"]
     },
     {
       "id": "spring_rain",
@@ -54,7 +54,7 @@
       "description": "单赛季从「见习」升至「进阶」及以上",
       "icon": "🚀",
       "condition": "rank increased from 1 to 5+ in one season",
-      "achieved_by": []
+      "achieved_by": ["蜜糖"]
     },
     {
       "id": "hard_question_master",
@@ -62,7 +62,7 @@
       "description": "累计答对12道3级及以上题目",
       "icon": "🔥",
       "condition": "answered 12+ questions of level 3+",
-      "achieved_by": []
+      "achieved_by": ["小陈"]
     },
     {
       "id": "festival_full",
