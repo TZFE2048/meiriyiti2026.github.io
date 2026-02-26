@@ -6,7 +6,10 @@
       "description": "累计答对 10 题",
       "icon": "🎯",
       "condition": "total_correct >= 10",
-      "achieved_by": ["小贝克""小陈""开心牛""蜜糖"]
+      "achieved_by": ["小贝克"]
+      "achieved_by": ["小陈"]
+      "achieved_by": ["开心牛"]
+      "achieved_by": ["蜜糖"]
     },
     {
       "id": "season_starter",
@@ -14,7 +17,9 @@
       "description": "在任意传统节日答对题目",
       "icon": "📅",
       "condition": "answered on traditional festival",
-      "achieved_by": ["小贝克""蜜糖""小金牛"]
+      "achieved_by": ["小贝克"]
+      "achieved_by": ["蜜糖"]
+      "achieved_by": ["小金牛"]
     },
     {
       "id": "season_complete",
@@ -30,7 +35,11 @@
       "description": "连续3天答题（不限正确）",
       "icon": "📅",
       "condition": "streak of 3 consecutive days",
-      "achieved_by": ["小贝克""小陈""小河""开心牛""蜜糖"]
+      "achieved_by": ["小贝克"]
+      "achieved_by": ["小陈"]
+      "achieved_by": ["开心牛"]
+      "achieved_by": ["小河"]
+      "achieved_by": ["蜜糖"]
     },
     {
       "id": "question_diversity",
@@ -38,7 +47,8 @@
       "description": "答对过5种不同难度题（1~6级）",
       "icon": "🌊",
       "condition": "answered questions of 5+ difficulty levels",
-      "achieved_by": ["小贝克""小陈"]
+      "achieved_by": ["小贝克"]
+      "achieved_by": ["小陈"]
     },
     {
       "id": "spring_rain",
