@@ -136,7 +136,7 @@
       "description": "单赛季无任何答错（含高难题）",
       "icon": "⚪",
       "condition": "no wrong answers in entire season",
-      "achieved_by": []
+      "achieved_by": ["小贝克"]
     },
     {
       "id": "legacy_keeper",
