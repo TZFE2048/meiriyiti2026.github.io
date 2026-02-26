@@ -6,7 +6,7 @@
       "description": "累计答对 10 题",
       "icon": "🎯",
       "condition": "total_correct >= 10",
-      "achieved_by": []
+      "achieved_by": ["小贝克","小陈"]
     },
     {
       "id": "season_starter",
@@ -136,7 +136,7 @@
       "description": "单赛季无任何答错（含高难题）",
       "icon": "⚪",
       "condition": "no wrong answers in entire season",
-      "achieved_by": ["小贝克"]
+      "achieved_by": []
     },
     {
       "id": "legacy_keeper",
