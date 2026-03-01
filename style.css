@@ -64,3 +64,19 @@ tr:hover {
   opacity: 0.7;
   font-style: italic;
 }
+.log-day {
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  border-bottom: 1px dashed #eee;
+}
+.log-day h3 {
+  color: #2c3e50;
+  font-size: 1.4em;
+  margin-bottom: 10px;
+}
+#month-select {
+  padding: 6px 10px;
+  font-size: 1em;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
