@@ -19,37 +19,51 @@
     <a href="/daily-log.html">每日作答记录</a>
   </nav>
   
-  <div class="container">
-    <div id="today-log">
-        <h3>2026年2月27日</h3>
-        <p><strong>题目：</strong>泰坦尼克号撞上了冰山，随时可能会沉没。船上有一名出色的游泳运动员，他相信自己凭借着强大的游泳天赋存活下来。他在出发之前询问了一下船长：“我们现在离最近的陆地有多远？”船长回答：“大约1英里。”1英里大约是1.6千米，这对于专业游泳运动员来说显然不是难事，于是他又问船长：“那我应该向哪里游？”然而，接下来船长只说了一句话，这名运动员瞬间哑然失笑。</p>
-        <p>问题来了：船长说了啥</p>
-        <p><strong>答案：</strong>向下游/1英里是到冰山的距离（答案不唯一，言之有理即可）</p>
-        <p><strong>难度：</strong>2+</p>
-        <p><strong>分数：</strong>1</p>
-        <table>
-          <tr><th>用户名</th><th>是否答对</th></tr>
-          <tr><td>小贝克</td><td>✅</td></tr>
-        </table>
-        <p><strong>题目：</strong>一个地秤上放了3个重物，这3个重物的质量是连续的正整数，他们的质量总和是54kg。</p>
-        <p>问：这3个重物的质量分别是多少？</p>
-        <p><strong>答案：</strong>17kg，18kg，19kg</p>
-        <p><strong>难度：</strong>2</p>
-        <p><strong>分数：</strong>1</p>
-        <table>
-          <tr><th>用户名</th><th>是否答对</th></tr>
-          <tr><td>张展恩</td><td>✅</td></tr>
-        </table>
-        <p><strong>题目：</strong>一个地秤上放了4个重物，这4个重物的质量是连续的正整数，他们的质量总和是90kg。</p>
-        <p>问：这4个重物的质量分别是多少？</p>
-        <p><strong>答案：</strong>21kg，22kg，23kg，24kg</p>
-        <p><strong>难度：</strong>2＋</p>
-        <p><strong>分数：</strong>1</p>
-        <table>
-          <tr><th>用户名</th><th>是否答对</th></tr>
-          <tr><td>张展恩</td><td>✅</td></tr>
-        </table>
-      </div>
-   </div>
+<div class="container">
+  <!-- 月份选择下拉框 -->
+  <label for="month-select">选择月份：</label>
+  <select id="month-select" onchange="loadMonth(this.value)">
+    <option value="">请选择</option>
+    <option value="2026-02">2026年2月</option>
+    <option value="2026-03" selected>2026年3月</option>
+    <!-- 后续可动态生成 -->
+  </select>
+
+  <!-- 记录展示区 -->
+  <div id="month-log" style="margin-top: 20px;">
+    <p>请选择月份查看记录</p>
+  </div>
+</div>
+  <script>
+  // 页面加载时自动加载当前月份
+  window.onload = function() {
+    const now = new Date();
+    const currentMonth = `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, '0')}`;
+    document.getElementById('month-select').value = currentMonth;
+    loadMonth(currentMonth);
+  };
+
+  function loadMonth(monthKey) {
+    if (!monthKey) return;
+
+    const filePath = `/data/daily/${monthKey}.html`;
+    const container = document.getElementById('month-log');
+    container.innerHTML = '<p>加载中...</p>';
+
+    fetch(filePath)
+      .then(response => response.ok ? response.text() : null)
+      .then(html => {
+        if (html) {
+          container.innerHTML = html;
+        } else {
+          container.innerHTML = `<p>暂无 ${monthKey} 的记录</p>`;
+        }
+      })
+      .catch(err => {
+        console.error("加载失败:", err);
+        container.innerHTML = `<p>加载失败，请检查网络或稍后再试</p>`;
+      });
+  }
+</script>
 </body>
 </html>
