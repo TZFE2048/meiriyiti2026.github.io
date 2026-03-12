@@ -46,7 +46,7 @@
       "description": "在植树节或教师相关题答对",
       "icon": "🌱",
       "condition": "answered on Tree Planting Day or Teacher-related question",
-      "achieved_by": []
+      "achieved_by": ["蜜糖","小陈"]
     },
     {
       "id": "rank_up",
