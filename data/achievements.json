@@ -14,7 +14,7 @@
       "description": "在任意传统节日答对题目",
       "icon": "📅",
       "condition": "answered on traditional festival",
-      "achieved_by": ["蜜糖","小贝克","小金牛"]
+      "achieved_by": ["蜜糖","小贝克","小金牛","小陈"]
     },
     {
       "id": "season_complete",
@@ -30,7 +30,7 @@
       "description": "连续3天答题（不限正确）",
       "icon": "📅",
       "condition": "streak of 3 consecutive days",
-      "achieved_by": ["开心牛","小贝克","小陈","小河"]
+      "achieved_by": ["开心牛","小贝克","小陈","小河","覃氪"]
     },
     {
       "id": "question_diversity",
@@ -38,7 +38,7 @@
       "description": "答对过5种不同难度题（1~6级）",
       "icon": "🌊",
       "condition": "answered questions of 5+ difficulty levels",
-      "achieved_by": ["小陈","小贝克"]
+      "achieved_by": ["小陈","小贝克","开心牛","蜜糖"]
     },
     {
       "id": "spring_rain",
@@ -78,7 +78,7 @@
       "description": "连续7天答对当日难度最高的题目",
       "icon": "🛡️",
       "condition": "answered the highest-difficulty question for 7 consecutive days",
-      "achieved_by": []
+      "achieved_by": ["蜜糖"]
     },
     {
       "id": "elite_guardian",
@@ -141,10 +141,34 @@
     {
       "id": "legacy_keeper",
       "name": "薪火相传",
-      "description": "历史最高段位 ≥ 当前段位 连续5赛季",
+      "description": "历史最高段位 ≥ 当前段位连续5赛季",
       "icon": "🕯️",
       "condition": "highest rank ≥ current rank for 5 consecutive seasons",
       "achieved_by": []
+    }
+    {
+      "id": "April_Fool_1",
+      "name": "慧眼识真",
+      "description": "愚人节当天参与答题并答对",
+      "icon": "🤔",
+      "condition": "Participate in the quiz and answer correctly on April Fool's Day",
+      "achieved_by": ["衣责","私猴"]
+    }
+    {
+      "id": "April_Fool_2",
+      "name": "大智若愚",
+      "description": "世界都在睡觉，连题目都懒得点开",
+      "icon": "🤡",
+      "condition": "The world is sleeping, and even the topic is too lazy to open",
+      "achieved_by": ["小陈","蜜糖","小贝克","芒U","夜寐","不断路","小豆","张展恩","小河等14人"]
+    }
+    {
+      "id": "April_Fool_3",
+      "name": "海空卫士",
+      "description": "在4月1日当天答对王伟烈士相关题目————81192，我已无法返航",
+      "icon": "🛡️",
+      "condition": "On April 1st, I answered the questions related to the martyr Wang Wei correctly - 81192, and I can no longer return",
+      "achieved_by": ["芒U"]
     }
   ]
 }
