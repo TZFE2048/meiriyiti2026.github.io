@@ -145,7 +145,7 @@
       "icon": "🕯️",
       "condition": "highest rank ≥ current rank for 5 consecutive seasons",
       "achieved_by": []
-    }
+    },
     {
       "id": "April_Fool_1",
       "name": "慧眼识真",
@@ -153,7 +153,7 @@
       "icon": "🤔",
       "condition": "Participate in the quiz and answer correctly on April Fool's Day",
       "achieved_by": ["衣责","私猴"]
-    }
+    },
     {
       "id": "April_Fool_2",
       "name": "大智若愚",
@@ -161,7 +161,7 @@
       "icon": "🤡",
       "condition": "The world is sleeping, and even the topic is too lazy to open",
       "achieved_by": ["小陈","蜜糖","小贝克","芒U","夜寐","不断路","小豆","张展恩","小河","小绿","小吖吖"]
-    }
+    },
     {
       "id": "April_Fool_3",
       "name": "海空卫士",
